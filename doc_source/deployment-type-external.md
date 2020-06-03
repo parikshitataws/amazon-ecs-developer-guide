@@ -12,7 +12,7 @@ The `UpdateServicePrimaryTaskSet` API action modifies which task set in a servic
 
 Consider the following when using the external deployment type:
 + Service auto scaling is not supported when using an external deployment controller\.
-+ If using a load balancer for the task task, the supported load balancer types are either an Application Load Balancer or a Network Load Balancer\.
++ If using a load balancer for the task set, the supported load balancer types are either an Application Load Balancer or a Network Load Balancer\.
 + Tasks using the Fargate launch type or `EXTERNAL` deployment controller types don't support the `DAEMON` scheduling strategy\.
 
 ## External Deployment Workflow<a name="deployment-type-external-workflow"></a>
